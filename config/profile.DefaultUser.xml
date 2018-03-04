@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?><Profile>
+  <Version Build="" Level1="1" Level2="4" Level3="" Level4="" ReleaseDate="" VersionId="0"/>
+  <License Type="0">
+    <Text/>
+  </License>
+  <License Type="1">
+    <Text/>
+  </License>
+  <PromptForPassword>false</PromptForPassword>
+  <Build>1741</Build>
+  <MdiBounds>
+    <X>50.0</X>
+    <Y>50.0</Y>
+    <Width>750.0</Width>
+    <Height>550.0</Height>
+  </MdiBounds>
+  <BasicFileUseMgr>
+    <RecentFiles>
+      <Database>
+        <File Path="/home/sid/Downloads/feather.xml"/>
+        <File Path="/home/sid/Downloads/FeatherTest2.xml"/>
+      </Database>
+      <JPEG/>
+      <PNG/>
+      <SVG/>
+      <SqlScript/>
+    </RecentFiles>
+  </BasicFileUseMgr>
+  <FilePaths>
+    <FilePath>
+      <Name>filePath.desc.db</Name>
+      <Path/>
+    </FilePath>
+    <FilePath>
+      <Name>filePath.desc.jpeg</Name>
+      <Path/>
+    </FilePath>
+    <FilePath>
+      <Name>filePath.desc.png</Name>
+      <Path/>
+    </FilePath>
+    <FilePath>
+      <Name>filePath.desc.script</Name>
+      <Path/>
+    </FilePath>
+  </FilePaths>
+  <Abbreviations>
+    <Abbreviation>
+      <ShortText>de</ShortText>
+      <FullText>DESCRIBE</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>fr</ShortText>
+      <FullText>FROM</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>ii</ShortText>
+      <FullText>INSERT INTO</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>ins</ShortText>
+      <FullText>INSERT</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>lj</ShortText>
+      <FullText>LEFT JOIN</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>ob</ShortText>
+      <FullText>ORDER BY</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>se</ShortText>
+      <FullText>SELECT</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>ssf</ShortText>
+      <FullText>SELECT * FROM</FullText>
+    </Abbreviation>
+    <Abbreviation>
+      <ShortText>wh</ShortText>
+      <FullText>WHERE</FullText>
+    </Abbreviation>
+  </Abbreviations>
+  <BoundsStore/>
+  <UiPlatform>25</UiPlatform>
+  <StartUp Ok="true"/>
+  <JdbcConfigs/>
+  <OptionMgrs>
+    <UserOptionMgr>
+      <Name>db.explorer.option.mgr</Name>
+      <BoolOpt lbl="Enable Autosave" nm="db.explorer.autosave" on="1" spl="0"/>
+      <BoolOpt lbl="Default Columns to Nullable" nm="db.explorer.default.columns.to.null" on="1" spl="0"/>
+      <BoolOpt lbl="Show Custom Type Folder*  (will always show if custom types exist)" nm="db.explorer.show.custom.type.folder" on="0" spl="0"/>
+      <BoolOpt lbl="Show Procedure Folder*  (will always show if procedures exist)" nm="db.explorer.show.proc.folder" on="1" spl="0"/>
+      <BoolOpt lbl="Show Sequence Folder*  (will always show if sequences exist)" nm="db.explorer.show.sequence.folder" on="0" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>data.type.opt.mgr</Name>
+      <BoolOpt lbl="Binary" nm="-2" on="1" spl="1"/>
+      <BoolOpt lbl="VarBinary" nm="-3" on="1" spl="1"/>
+      <BoolOpt lbl="BigInt" nm="-5" on="1" spl="1"/>
+      <BoolOpt lbl="TinyInt" nm="-6" on="1" spl="1"/>
+      <BoolOpt lbl="Bit" nm="-7" on="1" spl="1"/>
+      <BoolOpt lbl="Char" nm="1" on="1" spl="1"/>
+      <BoolOpt lbl="VarChar" nm="12" on="1" spl="1"/>
+      <BoolOpt lbl="Boolean" nm="16" on="1" spl="1"/>
+      <BoolOpt lbl="Numeric" nm="2" on="1" spl="1"/>
+      <BoolOpt lbl="BLOB" nm="2004" on="1" spl="1"/>
+      <BoolOpt lbl="Decimal" nm="3" on="1" spl="1"/>
+      <BoolOpt lbl="Integer" nm="4" on="1" spl="1"/>
+      <BoolOpt lbl="SmallInt" nm="5" on="1" spl="1"/>
+      <BoolOpt lbl="Float" nm="6" on="1" spl="1"/>
+      <BoolOpt lbl="Real" nm="7" on="1" spl="1"/>
+      <BoolOpt lbl="DateTime" nm="700" on="1" spl="1"/>
+      <BoolOpt lbl="Money" nm="701" on="1" spl="1"/>
+      <BoolOpt lbl="MediumInt" nm="702" on="1" spl="1"/>
+      <BoolOpt lbl="Text" nm="703" on="1" spl="1"/>
+      <BoolOpt lbl="UniqueID" nm="704" on="1" spl="1"/>
+      <BoolOpt lbl="Enum" nm="706" on="0" spl="1"/>
+      <BoolOpt lbl="TinyBLOB" nm="707" on="0" spl="1"/>
+      <BoolOpt lbl="MedBLOB" nm="708" on="0" spl="1"/>
+      <BoolOpt lbl="LongBLOB" nm="709" on="0" spl="1"/>
+      <BoolOpt lbl="TinyText" nm="710" on="0" spl="1"/>
+      <BoolOpt lbl="MedText" nm="711" on="0" spl="1"/>
+      <BoolOpt lbl="LongText" nm="712" on="0" spl="1"/>
+      <BoolOpt lbl="Image" nm="721" on="0" spl="1"/>
+      <BoolOpt lbl="NChar" nm="722" on="0" spl="1"/>
+      <BoolOpt lbl="NText" nm="723" on="0" spl="1"/>
+      <BoolOpt lbl="NVarChar" nm="724" on="0" spl="1"/>
+      <BoolOpt lbl="SQLVariant" nm="725" on="0" spl="1"/>
+      <BoolOpt lbl="SmallDateTime" nm="726" on="0" spl="1"/>
+      <BoolOpt lbl="XML" nm="728" on="0" spl="1"/>
+      <BoolOpt lbl="NVarChar(MAX)" nm="729" on="0" spl="1"/>
+      <BoolOpt lbl="VarBinary(MAX)" nm="730" on="0" spl="1"/>
+      <BoolOpt lbl="VarChar(MAX)" nm="731" on="0" spl="1"/>
+      <BoolOpt lbl="Set" nm="740" on="0" spl="1"/>
+      <BoolOpt lbl="Bytea" nm="760" on="0" spl="1"/>
+      <BoolOpt lbl="Box" nm="761" on="0" spl="1"/>
+      <BoolOpt lbl="Circle" nm="762" on="0" spl="1"/>
+      <BoolOpt lbl="Cidr" nm="763" on="0" spl="1"/>
+      <BoolOpt lbl="Inet" nm="764" on="0" spl="1"/>
+      <BoolOpt lbl="Internal" nm="765" on="0" spl="1"/>
+      <BoolOpt lbl="Line" nm="766" on="0" spl="1"/>
+      <BoolOpt lbl="Lseg" nm="767" on="0" spl="1"/>
+      <BoolOpt lbl="Macaddr" nm="768" on="0" spl="1"/>
+      <BoolOpt lbl="Path" nm="769" on="0" spl="1"/>
+      <BoolOpt lbl="Point" nm="770" on="0" spl="1"/>
+      <BoolOpt lbl="Polygon" nm="771" on="0" spl="1"/>
+      <BoolOpt lbl="TimeStampWithTimeZone" nm="772" on="0" spl="1"/>
+      <BoolOpt lbl="TimeWithTimeZone" nm="773" on="0" spl="1"/>
+      <BoolOpt lbl="UUID" nm="774" on="1" spl="1"/>
+      <BoolOpt lbl="TsVector" nm="775" on="0" spl="1"/>
+      <BoolOpt lbl="TsQuery" nm="776" on="0" spl="1"/>
+      <BoolOpt lbl="Serial" nm="777" on="0" spl="1"/>
+      <BoolOpt lbl="BigSerial" nm="778" on="0" spl="1"/>
+      <BoolOpt lbl="Geometry" nm="779" on="0" spl="1"/>
+      <BoolOpt lbl="Number" nm="780" on="1" spl="1"/>
+      <BoolOpt lbl="VarChar2" nm="781" on="1" spl="1"/>
+      <BoolOpt lbl="NVarChar2" nm="782" on="0" spl="1"/>
+      <BoolOpt lbl="CLOB" nm="783" on="0" spl="1"/>
+      <BoolOpt lbl="NCLOB" nm="784" on="0" spl="1"/>
+      <BoolOpt lbl="Raw" nm="785" on="0" spl="1"/>
+      <BoolOpt lbl="JSON" nm="786" on="1" spl="1"/>
+      <BoolOpt lbl="JSONB" nm="787" on="1" spl="1"/>
+      <BoolOpt lbl="(From External DB)" nm="798" on="0" spl="1"/>
+      <BoolOpt lbl="(Unknown)" nm="799" on="0" spl="1"/>
+      <BoolOpt lbl="Double" nm="8" on="1" spl="1"/>
+      <BoolOpt lbl="Date" nm="91" on="1" spl="1"/>
+      <BoolOpt lbl="Time" nm="92" on="1" spl="1"/>
+      <BoolOpt lbl="TimeStamp" nm="93" on="1" spl="1"/>
+      <BoolOpt lbl="Automatically enable datatypes encountered during Reverse Engineer" nm="dt.auto.enable.rev.eng" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>splitter.pos.opt.mgr</Name>
+      <IntOpt lbl="DB Explorer Navigator" nm="split.pos.db.exp.nv" val="465"/>
+      <IntOpt lbl="DB Explorer Property Panel" nm="split.pos.db.exp.prop" val="350"/>
+      <IntOpt lbl="DB Explorer Tree" nm="split.pos.db.exp.tree" val="180"/>
+      <IntOpt lbl="Forward Engineer Log" nm="split.pos.for.eng.log" val="280"/>
+      <IntOpt lbl="Forward Engineer Tree" nm="split.pos.for.eng.tree" val="210"/>
+      <IntOpt lbl="SQL Comm Results" nm="split.pos.sql.comm.rslt" val="210"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>result.option.mgr</Name>
+      <IntOpt lbl="Results Grid Max. Column Width (pixels)" nm="results.grid.col.max.width" val="150"/>
+      <IntOpt lbl="Messages Max. Length (chars)" nm="results.msg.max.length" val="150"/>
+      <IntOpt lbl="Results Text Max. Column Width (chars)" nm="results.text.col.max.width" val="75"/>
+      <BoolOpt lbl="Default Display is Grid" nm="results.grid.default" on="1" spl="0"/>
+      <BoolOpt lbl="Display Nulls As Blank Text" nm="results.null.as.blank" on="0" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>forward.engineer.option.mgr</Name>
+      <BoolOpt lbl="Always prepend schema name" nm="forward.engineer.always.prepend.schema" on="1" spl="0"/>
+      <BoolOpt lbl="Filter Connection List By Database Name*" nm="forward.engineer.filter.conn" on="0" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Foreign Keys" nm="forward.engineer.foreignKeys" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Indexes" nm="forward.engineer.indexes" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Procedures" nm="forward.engineer.procs" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Schemas" nm="forward.engineer.schemas" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Sequences" nm="forward.engineer.sequences" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Triggers" nm="forward.engineer.triggers" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Unique Constraints" nm="forward.engineer.unique.constraints" on="1" spl="0"/>
+      <BoolOpt lbl="Forward Engineer and Database Compare Views" nm="forward.engineer.views" on="1" spl="0"/>
+      <BoolOpt lbl="Use Transactions" nm="forward.engineer.z.use.transactions" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>db.option.mgr</Name>
+      <BoolOpt lbl="Table Default Sort is User Sort" nm="table.default.sort.user" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>diagram.option.mgr</Name>
+      <IntOpt lbl="Diagram Auto Scroll Speed" nm="diagram.auto.scroll.speed" val="4"/>
+      <IntOpt lbl="Default Font Size" nm="diagram.default.font.size" val="11"/>
+      <IntOpt lbl="Default Link Strategy" nm="diagram.default.strategy" val="3"/>
+      <BoolOpt lbl="Do not show this message again" nm="diagram.do.not.show.select.parent.msg" on="0" spl="0"/>
+      <BoolOpt lbl="Show tables from current diagram only" nm="diagram.quick.fk.dia.tbls.only" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show All Columns" nm="diagram.show.all.cols" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Autonumber" nm="diagram.show.autonum" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show Comment" nm="diagram.show.comment" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show Datatype" nm="diagram.show.datatype" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Default" nm="diagram.show.default" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show Enum" nm="diagram.show.enum" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show FK Columns" nm="diagram.show.fk.cols" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Foreign Key Names" nm="diagram.show.fk.nms" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Length" nm="diagram.show.length" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Name" nm="diagram.show.name" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Null" nm="diagram.show.null" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show PK Columns" nm="diagram.show.pk.cols" on="1" spl="0"/>
+      <BoolOpt lbl="Diagram Show Schema" nm="diagram.show.schema" on="0" spl="0"/>
+      <BoolOpt lbl="Diagram Show Signed" nm="diagram.show.signed" on="0" spl="0"/>
+      <TextOpt nm="diagram.db.table.rectangle.fill">HeaderFooterFill</TextOpt>
+      <TextOpt nm="diagram.er.notation">BarkerErNotation</TextOpt>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>psql.opt.mgr</Name>
+      <BoolOpt lbl="In SQL/DDL Statements Enclose Mixed Case Object Names in Double Quotes." nm="psql.enclose.quotes" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>editor.option.mgr</Name>
+      <IntOpt lbl="Abbreviation Auto Complete Delay (msec)" nm="abbr.time.delay" val="1500"/>
+      <IntOpt lbl="Editor Indentation" nm="editor.indent" val="4"/>
+      <BoolOpt lbl="Automatically show code completions after key stroke" nm="auto.show.code.completions" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>tbl.data.view.opt.mgr</Name>
+      <BoolOpt lbl="Use combo boxes to edit data of columns that are foreign keys" nm="tbl.data.vw.cbo.fk" on="1" spl="0"/>
+    </UserOptionMgr>
+    <UserOptionMgr>
+      <Name>conn.opt.mgr</Name>
+      <IntOpt lbl="Last connection used index" nm="last.conn.idx" val="0"/>
+    </UserOptionMgr>
+  </OptionMgrs>
+  <DbwNameBldrSvr>
+    <UniqueConstraintNameBldr>
+      <DbNameProps UseColumnNames="true" UseTableName="false">
+        <NameProps Prefix="uc" Separator="_" Suffix=""/>
+      </DbNameProps>
+    </UniqueConstraintNameBldr>
+    <SequenceNameBldr>
+      <DbNameProps UseColumnNames="true" UseTableName="true">
+        <NameProps Prefix="" Separator="_" Suffix="seq"/>
+      </DbNameProps>
+    </SequenceNameBldr>
+    <IndexNameBldr ClusteredStr="" NonUniqueStr="" UniqueStr="">
+      <DbNameProps UseColumnNames="true" UseTableName="true">
+        <NameProps Prefix="" Separator="_" Suffix="Idx"/>
+      </DbNameProps>
+    </IndexNameBldr>
+    <PkNameBldr>
+      <DbNameProps UseColumnNames="false" UseTableName="true">
+        <NameProps Prefix="pk" Separator="" Suffix=""/>
+      </DbNameProps>
+    </PkNameBldr>
+    <FkNameBldr ChildItemsFirst="true">
+      <UseParentTableName>true</UseParentTableName>
+      <UseChildTableName>true</UseChildTableName>
+      <UseParentColumnNames>false</UseParentColumnNames>
+      <UseChildColumnNames>false</UseChildColumnNames>
+      <NameProps Prefix="fk" Separator="_" Suffix=""/>
+    </FkNameBldr>
+  </DbwNameBldrSvr>
+  <zmPresets>
+    <preset>10</preset>
+    <preset>25</preset>
+    <preset>50</preset>
+    <preset>75</preset>
+    <preset>100</preset>
+    <preset>125</preset>
+    <preset>150</preset>
+  </zmPresets>
+  <DiagramPref SlideToLocate="0"/>
+  <BasicTemplateSvr>
+    <Templates>
+      <BasicColumnTemplate AutoNumber="false" DataType="Integer" Default="" Length="null" Name="Id" Nulls="false" PrimaryKey="true" Scale="null" Signed="true" Use="true">
+        <Comment/>
+      </BasicColumnTemplate>
+      <GeneratedColumnTemplate>
+        <BasicNameBuilder BaseName="(TableName)" Prefix="" Suffix="Name" UseBaseName="true"/>
+        <BasicColumnTemplate AutoNumber="false" DataType="VarChar" Default="" Length="50" Name="*Name" Nulls="false" PrimaryKey="false" Scale="null" Signed="true" Use="false">
+          <Comment/>
+        </BasicColumnTemplate>
+      </GeneratedColumnTemplate>
+      <BasicColumnTemplate AutoNumber="false" DataType="VarChar" Default="" Length="50" Name="InsertBy" Nulls="false" PrimaryKey="false" Scale="null" Signed="true" Use="false">
+        <Comment/>
+      </BasicColumnTemplate>
+      <BasicColumnTemplate AutoNumber="false" DataType="VarChar" Default="" Length="50" Name="UpdateBy" Nulls="false" PrimaryKey="false" Scale="null" Signed="true" Use="false">
+        <Comment/>
+      </BasicColumnTemplate>
+      <BasicColumnTemplate AutoNumber="false" DataType="TimeStamp" Default="" Length="null" Name="InsertTime" Nulls="false" PrimaryKey="false" Scale="null" Signed="true" Use="false">
+        <Comment/>
+      </BasicColumnTemplate>
+      <BasicColumnTemplate AutoNumber="false" DataType="TimeStamp" Default="" Length="null" Name="UpdateTime" Nulls="false" PrimaryKey="false" Scale="null" Signed="true" Use="false">
+        <Comment/>
+      </BasicColumnTemplate>
+    </Templates>
+  </BasicTemplateSvr>
+</Profile>
