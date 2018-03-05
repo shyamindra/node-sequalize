@@ -1,15 +1,14 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var listing_imgs = sequelize.define('listing_imgs', {
-    listing_id: DataTypes.INT,
+  var safe_swp_img = sequelize.define('safe_swp_img', {
     date_added: DataTypes.DATE,
     img: DataTypes.BLOB
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        safe_swp_img.belongsTo(swp_info);
       }
     }
   });
-  return listing_imgs;
+  return safe_swp_img;
 };

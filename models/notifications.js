@@ -7,7 +7,8 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        notifications.belongTo(user);
+        notifications.belongTo(notification_type);
       }
     }
   });

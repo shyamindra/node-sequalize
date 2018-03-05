@@ -1,8 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var swp_info = sequelize.define('swp_info', {
-    from_usr: DataTypes.INT,
-    to_usr: DataTypes.INT,
     listing_id: DataTypes.INT,
     swp_time: DataTypes.DATETIME,
     is_swp_permanent: DataTypes.BOOLEAN,
@@ -10,7 +8,9 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        swp_info.belongsTo(user, {foreignKey: 'from_usr'});
+        swp_info.belongsTo(user, {foreignKey: 'to_usr'});
+        swp_info.belongsTo(listing);
       }
     }
   });

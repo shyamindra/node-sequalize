@@ -1,12 +1,12 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var reported_listings = sequelize.define('reported_listings', {
-    listing_id: DataTypes.INT,
-    reported_by: DataTypes.INT
+    description: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        messages.belongsTo(listing);
+        messages.belongsTo(user, {foreignKey: 'reported_by'});
       }
     }
   });

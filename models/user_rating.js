@@ -9,7 +9,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        user_rating.belongsTo(user);
       }
     }
   });

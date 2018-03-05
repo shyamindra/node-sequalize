@@ -1,13 +1,13 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
-  var tag_type = sequelize.define('tag_type', {
-    name: DataTypes.STRING
+  var listing_type = sequelize.define('listing_type', {
+    name: DataTypes.STRING,
+    description: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
       }
     }
   });
-  return tag;
+  return listing_type;
 };
