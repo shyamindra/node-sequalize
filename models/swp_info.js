@@ -1,7 +1,6 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   var swp_info = sequelize.define('swp_info', {
-    listing_id: DataTypes.INT,
     swp_time: DataTypes.DATETIME,
     is_swp_permanent: DataTypes.BOOLEAN,
     safe_swp: DataTypes.BOOLEAN

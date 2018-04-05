@@ -5,7 +5,6 @@ module.exports = (sequelize, DataTypes) => {
     description: DataTypes.TEXT,
     date_created: DataTypes.DATE,
     date_updated: DataTypes.DATE,
-    tag_id: DataTypes.INT,
     location: DataTypes.POINT,
     range: DataTypes.INT,
     status: DataTypes.SMALLINT
@@ -14,6 +13,7 @@ module.exports = (sequelize, DataTypes) => {
       associate: function(models) {
         listing.belongsTo(user);
         listing.belongsTo(listing_type);
+        listing.belongsTo(user);
       }
     }
   });
